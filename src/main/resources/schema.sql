@@ -1,0 +1,6 @@
+CREATE TABLE store
+(
+  id     NUMBER(19)    PRIMARY KEY,
+  name   VARCHAR2(100) NOT NULL,
+  status VARCHAR2(20)  NOT NULL
+);

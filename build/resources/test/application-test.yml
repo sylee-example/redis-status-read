@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    # 테스트 컨텍스트마다 새 인메모리 DB (컨텍스트마다 schema.sql 이 실행되므로 이름이 같으면 CREATE TABLE 충돌)
+    url: jdbc:h2:mem:${random.uuid};MODE=Oracle;DB_CLOSE_DELAY=-1
